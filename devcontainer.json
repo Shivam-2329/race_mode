@@ -1,0 +1,14 @@
+{
+  "name": "Windows .NET Framework",
+  "image": "mcr.microsoft.com/vscode/devcontainers/dotnet:0-4.8-windowsservercore-ltsc2019",
+  "features": {
+    "dotnet": "4.8"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp"
+      ]
+    }
+  }
+}
